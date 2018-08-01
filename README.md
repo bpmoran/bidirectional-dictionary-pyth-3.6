@@ -4,6 +4,8 @@ Python 3.6 Implementation of 2.7 bidirectional dictionary solution found [here](
 
 use example: 
 ```
+from bidict import Bidict
+
 my_dict = Bidict({'a':'x', 'b':'y', 'c':'x'})
 
 print(my_dict)
